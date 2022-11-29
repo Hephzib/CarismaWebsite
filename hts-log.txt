@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 10 Jul 2019 10:00:16 at http://themefable.com/corpotask/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://themefable.com/corpotask/ -O1 "C:\xampp\htdocs\carismasolution" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:00:19	Warning: 	Note: due to themefable.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+10:05:10	Error: 	"Not Found" (404) at link themefable.com/corpotask/assets/css/owl.video.play.png (from themefable.com/corpotask/assets/css/owl.carousel.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 54 seconds : 111 links scanned, 109 files written (8320534 bytes overall) [8212512 bytes received at 27933 bytes/sec], 185557 bytes transferred using HTTP compression in 8 files, ratio 15%, 1.7 requests per connection
+(1 errors, 1 warnings, 0 messages)

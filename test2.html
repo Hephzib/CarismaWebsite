@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <style>
+.inv {
+    display: none;
+}
+    </style>
+    <body>
+    Current openings for
+        <select id="target">
+          <option value="">
+          <u>all locations</u>
+          </option>
+            <option value="content_1">Chennai</option>
+            <option value="content_2">Bangalore</option>
+            <option value="content_3">Melbourne</option>
+        <select>
+
+        
+
+        <div id="content_1" class="inv">
+       
+<div class="row">
+    <div class="col-sm-9">
+<p><b> Junior Accountant </b></p> 
+<font color="grey"><p>Chennai, India</p></font>
+    </div>
+    <div class="col-sm-3">
+        <a href="#">
+          <i class="fa fa-caret-right" style="font-size:24px;color:grey"></i>
+        </a>
+      </p>
+    </div>
+  
+<!--The horizontal line portion-->
+<hr align= "left" style="border-top:1px solid #f9d09d; width:80%">
+        </div>
+
+        </div>
+
+        <!--==================================gu=================================-->
+        <div id="content_2" class="inv">
+<div class="container">
+<div class="row">
+    <div class="col-sm-9">
+<p><b>Accountant/Senior Accountant </b></p> 
+<font color="grey"><p>Bangalore, India</p></font>
+    </div>
+    <div class="col-sm-3">
+        <a href="#">
+          <i class="fa fa-caret-right" style="font-size:24px;color:grey"></i>
+        </a>
+      </p>
+    </div>
+</div>
+<!--The horizontal line portion-->
+<hr align= "left" style="border-top:1px solid #f9d09d; width:80%"></hr>
+       
+<div class="row">
+    <div class="col-sm-9">
+<p><b>Accountant/Senior Accountant </b></p> 
+<font color="grey"><p>Bangalore, India</p></font>
+    </div>
+    <div class="col-sm-3">
+        <a href="#">
+          <i class="fa fa-caret-right" style="font-size:24px;color:grey"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+  <hr align= "left" style="border-top:1px solid #f9d09d; width:80%">
+        </div>
+
+
+        <div class="row">
+    <div class="col-sm-9">
+<p><b> Accountant/Senior Accountant </b></p> 
+<font color="grey"><p>Bangalore,India</p></font>
+    </div>
+    <div class="col-sm-3">
+        <a href="#">
+          <i class="fa fa-caret-right" style="font-size:24px;color:grey"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+<!--The horizontal line portion-->
+<hr align= "left" style="border-top:1px solid #f9d09d; width:80%">
+        </div>
+
+
+</div>
+         </div>
+
+        <!--==================================hu=================================-->
+        <div id="content_3" class="inv">
+<div class="container">
+<div class="row">
+    <div class="col-sm-9">
+<p><b> Accountant/Senior Accountant </b></p> 
+<font color="grey"><p>Melbourne,Australia</p></font>
+    </div>
+    <div class="col-sm-3">
+        <a href="#">
+          <i class="fa fa-caret-right" style="font-size:24px;color:grey"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+<!--The horizontal line portion-->
+<hr align= "left" style="border-top:1px solid #f9d09d; width:80%">
+        </div>
+
+
+        <div class="row">
+    <div class="col-sm-9">
+<p><b>Accountant/Senior Accountant </b></p> 
+<font color="grey"><p>Melbourne,Australia</p></font>
+    </div>
+    <div class="col-sm-3">
+        <a href="#">
+          <i class="fa fa-caret-right" style="font-size:24px;color:grey"></i>
+        </a>
+      </p>
+    </div>
+  </div>
+<!--The horizontal line portion-->
+<hr align= "left" style="border-top:1px solid #f9d09d; width:80%">
+        </div>
+
+
+</div>
+         </div>
+
+         <!--===============================-->
+        <script>
+            document
+                .getElementById('target')
+                .addEventListener('change', function () {
+                    'use strict';
+                    var vis = document.querySelector('.vis'),   
+                        target = document.getElementById(this.value);
+                    if (vis !== null) {
+                        vis.className = 'inv';
+                    }
+                    if (target !== null ) {
+                        target.className = 'vis';
+                    }
+            });
+        </script>
+    </body>
+</html>
